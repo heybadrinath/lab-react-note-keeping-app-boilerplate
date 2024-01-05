@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(0, 0, 247, 0.781);
+    color: white;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    height: 60vh;
+}
+
+.input-text{
+    background-color: transparent;
+    width: 500px;
+    height: 80%;
+    border: 2px solid rgb(37, 37, 37);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.input,.output{
+    font-family: monospace;
+    margin: 0px 30px;
+}
+
+.output-text{
+    height: 90%;
+    width: 500px;
+    background-color: #464646;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    padding: 5px;
+}
